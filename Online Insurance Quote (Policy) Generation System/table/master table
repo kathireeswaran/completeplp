@@ -6,7 +6,7 @@ rolecode varchar2(10) not null
 );
 
 
-insert into userrole values('admin','admin','ADMIN');
+insert into user_role values('admin','admin','ADMIN');
 
 create sequence account_number_seq start with 1000000000 increment by 1;
 
